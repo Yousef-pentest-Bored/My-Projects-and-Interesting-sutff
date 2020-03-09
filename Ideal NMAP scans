@@ -1,0 +1,4 @@
+nmap -T4 -sV -sC --script=ssl-enum-ciphers <target>
+nmap -sC -sn <target>
+nmap -T4 -sV --script=all <target>
+if the target is not showing any ports or taking too long, try adding -sN to any of these scripts
